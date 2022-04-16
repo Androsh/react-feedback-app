@@ -156,7 +156,7 @@ input:focus {
 }
 
 .btn-primary {
-  background-color: #202142;
+  background-color: #666;
 }
 
 .btn-secondary {
@@ -182,7 +182,7 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: #333;
 }
 
 .about-link {
