@@ -24,6 +24,9 @@ function FeedbackForm() {
     if(text === '') {
       setBtnDisabled(true)
       setMessage(null)
+    } else if(rating === '') {
+      setMessage('Select a number')
+      setBtnDisabled(true)
     } else if(text !== '' && text.trim().length <= 10) {
       setMessage('Text must be at least 10 characters')
       setBtnDisabled(true)
